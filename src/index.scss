@@ -1,0 +1,25 @@
+$color: green;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  color: $color;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 20px;
+}
+
+.App {
+  padding: 40px 20px;
+  display: grid;
+  grid-gap: 50px;
+  justify-items: center;
+  align-content: start;
+  width: 100vw;
+  min-height: 100vh;
+}

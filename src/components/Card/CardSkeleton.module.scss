@@ -1,0 +1,40 @@
+.cardSkeleton {
+  width: 500px;
+  height: 370px;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px #00000034;
+}
+
+.cardSkeleton {
+  padding: 20px 30px 40px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.description {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.line {
+  margin-bottom: 32px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

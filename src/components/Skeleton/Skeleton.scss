@@ -1,0 +1,34 @@
+:root {
+  --color: #e1e3e4;
+}
+$blik: #fff;
+
+.skeleton {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+  background: var(--color);
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, var(--color) 0%, $blik 50%, var(--color) 100%);
+    animation: skeleton 1s ease-in-out infinite;
+  }
+}
+
+
+@keyframes skeleton {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
